@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Comfortaa:wght@300&display=swap');
+
+
+$primary0: #EDF2FB;
+$primary1: #A9D6E5;
+$primary2: #2A6F97;
+$primary3: #014F86;
+$primary4: #012A4A;
+
+body{
+  font-family:  'Cormorant Garamond', serif;
+  background-color: rgb(255,255,255);
+}
+
+@media only screen and (max-width: 768px) {
+ 
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+ 
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+/**************** Login   ********************/
+#title {
+  text-align: center;
+  color: $primary0;
+  background-color: $primary4;
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  opacity: 0.8;
+
+}
+
+.form {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: '100%';
+}
+
+.cardContainer {
+  height: auto;
+  width: 28rem;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 8%;
+}
+
+.cardRadio {
+  background-color: $primary0;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
+  margin: 1rem;
+}
+
+.loginTab {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 5%;
+}
+
+/**************** Registeration   ********************/
+
+#registerationTitle {
+  text-align: center;
+  color: white;
+  background-color: $primary3;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
+
+/**************** Admin   ********************/
+
+#adminTitle {
+  text-align: center;
+  font-weight: bolder;
+  color: $primary4;
+  padding: 15px;
+}
+
+
+#listPanel {
+  margin: -30px 30px 0px 30px;
+  z-index: -1;
+  width: -webkit-fill-available;
+  top: 100px;
+}
+
+.rce-mbox{
+  width:600px !important
+}
+
+/**************** Doctor   ********************/
+
+.doctorHome{
+  background-image: url("img/medicalBack.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items:center ;
+  justify-content:center;
+  flex-direction: column;
+  color: $primary3
+}
+
+/**************** Patient   ********************/
+
+.patientHome{
+  background-image: url("img/medicalBack.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items:center ;
+  justify-content:center;
+  flex-direction: column;
+  color: $primary3
+}
